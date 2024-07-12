@@ -1,1 +1,31 @@
-GET http://localhost:5195
+GET http://localhost:5195/games
+
+###
+GET http://localhost:5195/games/1
+
+###
+POST http://localhost:5195/games
+Content-Type: application/json
+
+{
+  "name": "Game 1",
+  "genre": "Description 1",
+  "price": 10.0,
+  "releaseDate": "2021-01-01"
+}
+
+
+###
+PUT http://localhost:5195/games/4
+Content-Type: application/json
+
+{
+  "name": "Updated Game ",
+  "genre": "Updated Genre",
+  "price": 49.99,
+  "releaseDate": "2023-01-01"
+}
+
+
+###
+DELETE http://localhost:5195/games/2
