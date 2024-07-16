@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\demir\\Documents\\GitHub\\GameStore\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj": {}
+    "C:\\Users\\demir\\Documents\\GitHub\\GameStore\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\demir\\Documents\\GitHub\\GameStore\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj": {
+    "C:\\Users\\demir\\Documents\\GitHub\\GameStore\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\demir\\Documents\\GitHub\\GameStore\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "C:\\Users\\demir\\Documents\\GitHub\\GameStore\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "c:\\Users\\demir\\Documents\\GitHub\\GameStore\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "C:\\Users\\demir\\Documents\\GitHub\\GameStore\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\demir\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\demir\\Documents\\GitHub\\GameStore\\GameStore.Api\\GameStore.Api\\obj\\",
+        "outputPath": "C:\\Users\\demir\\Documents\\GitHub\\GameStore\\GameStore.Api\\GameStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MinimalApis.Extensions": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
